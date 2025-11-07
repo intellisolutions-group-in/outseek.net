@@ -1,0 +1,32 @@
+{
+  "name": "Outseek - Leading IT/Software Solutions",
+  "short_name": "Outseek",
+  "description": "Transform your business with cutting-edge technology solutions. AI, machine learning, cloud computing, NLP, and comprehensive IT services.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#4F3F7C",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/logos/favicon (1).ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/assets/logos/OutseekLogo-01.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity", "technology"],
+  "lang": "en-US",
+  "dir": "ltr"
+}
+
