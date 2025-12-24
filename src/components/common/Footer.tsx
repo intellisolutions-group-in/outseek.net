@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Facebook, Instagram } from "lucide-react";
 import { NAVIGATION, BRAND_NAME, ESTABLISHED_YEAR, CONTACT_EMAIL, SOCIAL_LINKS } from "@/utils/constants";
 
 export default function Footer() {
@@ -52,17 +52,6 @@ export default function Footer() {
                   aria-label="Instagram"
                 >
                   <Instagram size={24} />
-                </a>
-              )}
-              {SOCIAL_LINKS.twitter && (
-                <a
-                  href={SOCIAL_LINKS.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-colors"
-                  aria-label="Twitter"
-                >
-                  <Twitter size={24} />
                 </a>
               )}
             </div>

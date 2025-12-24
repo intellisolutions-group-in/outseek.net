@@ -176,7 +176,6 @@ export const SERVICES = [
 
 // Social media links
 export const SOCIAL_LINKS = {
-  twitter: "https://x.com/Outseek181350",
   facebook: "https://www.facebook.com/profile.php?id=61583619525859",
   instagram: "https://www.instagram.com/outseek8/",
 };
@@ -200,7 +199,6 @@ export const NAVIGATION = {
   })),
   company: [
     { name: "About Us", href: "/about" },
-    { name: "Our Team", href: "/team" },
     { name: "Careers", href: "/careers" },
     { name: "Contact", href: "/contact" },
   ],

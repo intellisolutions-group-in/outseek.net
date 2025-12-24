@@ -52,24 +52,6 @@ export default function HomePage() {
       {/* Hero Section */}
       <HeroSection />
 
-      {/* Trusted By Section */}
-      <section className="py-16 bg-white border-b border-gray-100">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-8">
-              Trusted by Industry Leaders
-            </p>
-            <div className="flex flex-wrap items-center justify-center gap-12 opacity-60 grayscale hover:grayscale-0 transition-all">
-              {["Fortune 500", "Tech Startups", "Enterprise", "SMBs", "Government"].map((client, index) => (
-                <div key={index} className="text-gray-600 font-semibold text-lg">
-                  {client}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Services Overview */}
       <section className="py-24 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -136,7 +118,7 @@ export default function HomePage() {
                 Enterprise & Corporate Level Solutions
               </h2>
               <p className="text-lg sm:text-xl text-white/90 max-w-4xl mx-auto leading-relaxed font-light">
-                Delivering world-class technology solutions for Fortune 500 companies, global enterprises, and leading organizations worldwide
+                Delivering world-class technology solutions for global enterprises and organizations worldwide
               </p>
             </div>
 
@@ -171,7 +153,7 @@ export default function HomePage() {
               <div className="bg-white/10 backdrop-blur-lg p-8 rounded-3xl border border-white/20 shadow-2xl">
                 <div className="text-3xl font-bold text-white mb-4">Corporate Excellence</div>
                 <p className="text-base text-white/90 leading-relaxed mb-6">
-                  Trusted by industry leaders for digital transformation initiatives. We combine strategic consulting with cutting-edge technology to deliver measurable business outcomes.
+                  We combine strategic consulting with cutting-edge technology to deliver measurable business outcomes for organizations worldwide.
                 </p>
                 <ul className="space-y-3 text-sm text-white/80">
                   <li className="flex items-start">

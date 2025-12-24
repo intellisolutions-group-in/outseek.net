@@ -141,7 +141,7 @@ export default function AboutPage() {
                         <p className="text-sm sm:text-base">Serving clients worldwide</p>
                       </div>
                       <div className="bg-white/10 backdrop-blur-sm rounded-xl p-3 sm:p-4">
-                        <p className="text-xs sm:text-sm">Trusted by businesses across industries</p>
+                        <p className="text-xs sm:text-sm">Delivering innovative solutions</p>
                       </div>
                     </div>
                   </div>

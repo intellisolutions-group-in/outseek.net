@@ -50,10 +50,6 @@ export function OrganizationSchema({ logo, socialProfiles }: OrganizationSchemaP
       name: "Worldwide",
     },
     description: `${BRAND_NAME} delivers cutting-edge IT and software solutions including AI, machine learning, cloud computing, NLP, and comprehensive technology services.`,
-    numberOfEmployees: {
-      "@type": "QuantitativeValue",
-      value: "50-200",
-    },
     knowsAbout: [
       "Artificial Intelligence",
       "Machine Learning",
@@ -66,13 +62,6 @@ export function OrganizationSchema({ logo, socialProfiles }: OrganizationSchemaP
       "Natural Language Processing",
       "IT Consulting",
     ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.8",
-      reviewCount: "150",
-      bestRating: "5",
-      worstRating: "1",
-    },
   };
 
   return (
@@ -267,13 +256,6 @@ export function ServiceSchema({
     offers: {
       "@type": "Offer",
       availability: "https://schema.org/InStock",
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.8",
-      reviewCount: "150",
-      bestRating: "5",
-      worstRating: "1",
     },
   };
 
