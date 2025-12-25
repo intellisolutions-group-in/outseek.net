@@ -164,7 +164,6 @@ export default function RootLayout({
       >
         <OrganizationSchema
           socialProfiles={{
-            twitter: SOCIAL_LINKS.twitter,
             facebook: SOCIAL_LINKS.facebook,
             instagram: SOCIAL_LINKS.instagram,
           }}
